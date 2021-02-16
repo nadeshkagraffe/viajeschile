@@ -19,7 +19,7 @@
 
 <body>
 
-    <header>
+    <header id="inicio">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top mx-2">
             <img height="30px" src="assets/img/viajes.svg" alt="">
             <a class="navbar-brand" href="#">Viajes chile</a>
@@ -29,10 +29,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Quienes somos</a>
-                    <a class="nav-link" href="#">Destacados</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link active" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#quienes">Quienes somos</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
 
                 </div>
             </div>
@@ -62,7 +62,7 @@
         </div>
 
     </header>
-    <section class="d-none d-sm-block d-md-block">
+    <section id="quienes" class="d-none d-sm-block d-md-block">
         <div class="container">
             <h3 class="text-center mt-3">¿Quienes somos? </h3>
             <hr class="bg-info">
@@ -111,7 +111,7 @@
 
     </section>
     <!--card deck-->
-    <section>
+    <section id="destacados">
         <div class="container">
             <h3 class="text-center mt-5"> Destacados</h3>
             <hr class="bg-info">
@@ -156,7 +156,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="contacto">
         <div class="container">
             <h3 class="text-center my-5">Contacto</h3>
             <hr class="bg-info">
